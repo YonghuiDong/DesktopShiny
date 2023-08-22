@@ -14,11 +14,9 @@ This repository is a template of the base directory of desktop deployed Shiny ap
 
 ## 2. Package portable R installation
 
-Install R in **`R`** directory using a standard installation of R.
+Install R in **`R`** directory.
 
-> Note that R portable version might be too low. You can use standard way to install R.
-
-Inside the **R** folder, open **etc** and edit **Rprofile.site** using a text editor to include the lines:
+Inside the **`R`** folder, open **`etc`** and edit **`Rprofile.site`** using a text editor to include the lines:
 
 ``` R
 .First = function(){
