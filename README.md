@@ -2,7 +2,7 @@
 
 - This repository provides the required files and instructions on deploying R Shiny web application(s) as an installable and standalone local Windows desktop application.
 
-- The benefits of this deployment method is the minimal software requirement and IT knowledge necessary to run a Shiny application, making Shiny apps more accessible to users from all technical levels.
+- The benefits of this deployment method is **the minimal software requirement and IT knowledge** necessary to run a Shiny application, making Shiny apps more accessible to users from all technical levels.
 
 - This repository is specially for Shiny app that is distributed as R package.
 
