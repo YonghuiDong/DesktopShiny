@@ -36,7 +36,7 @@ install.packages("myShinyApp")
 
 ### 4. Test run the app
 
-Double clicking **run.bat** should now run the Shiny app in either the default browser or packaged web browser.
+Double clicking **`run.bat`** should now run the Shiny app in either the default browser or packaged web browser.
 
 Closing the browser window should terminate the Shiny app and close the command prompt window.
 
