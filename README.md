@@ -16,7 +16,7 @@ This repository is a template of the base directory of desktop deployed Shiny ap
 
 ### 2. Package portable R installation
 
-Download and install [R Portable](https://sourceforge.net/projects/rportable/), then copy the contents of **R-Portable\App\R-Portable** (this should have folders such as *bin*, *doc*, *etc* and so on) into the **R** folder. *Using a standard installation of R instead of R Portable should also work, but it is best to use a fresh installation to avoid bloat from including redundant packages.*
+ Using a standard installation of R instead of R Portable should also work, but it is best to use a fresh installation to avoid bloat from including redundant packages.*
 
 > Note that R portable version might be too low. You can use standard way to install R.
 
