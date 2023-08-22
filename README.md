@@ -6,17 +6,15 @@
 
 - This repository is specially for Shiny app that is distributed as R package.
 
-
-
 # Setup
 
-### 1. Download this repository
+## 1. Download this repository
 
 This repository is a template of the base directory of desktop deployed Shiny app.
 
-### 2. Package portable R installation
+## 2. Package portable R installation
 
- Using a standard installation of R instead of R Portable should also work, but it is best to use a fresh installation to avoid bloat from including redundant packages.*
+Install R in **`R`** directory using a standard installation of R.
 
 > Note that R portable version might be too low. You can use standard way to install R.
 
