@@ -57,12 +57,13 @@ Double clicking **`run.bat`** should run your Shiny app in the web browser.
 
 ### 6. Create installer executable
 
-Installers allow for easy distribution and installation of a Shiny desktop app. 
+Install [Inno Setup](https://jrsoftware.org/isdl.php)
 
-See setup.iss for an example compilation script using [Inno Setup](https://www.jrsoftware.org/isinfo.php). You will need to generate a new AppId and change the name, version, etc.
+Open the **`setup.iss`** with Inno Setup software. You will need to generate a new AppId and change the name, version, etc. Note you need to use double "{{" in front. (See figure below).
 
 ![Unknown](https://github.com/YonghuiDong/Shiny_Desktop_App/assets/22663189/0306c338-24a0-45dc-aec2-d1116995c840)
 
+Click the "Run" button to generate your executable desktop Shiny app.
 
 ## Acknowledgements
 
