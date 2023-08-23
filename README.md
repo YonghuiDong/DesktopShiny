@@ -66,4 +66,4 @@ See setup.iss for an example compilation script using [Inno Setup](https://www.j
 
 ## Acknowledgements
 
-Inspired by Lee Pang (he also has a repo on this topic [here](https://github.com/wleepang/DesktopDeployR)): https://www.r-bloggers.com/deploying-desktop-apps-with-r/
+This repository has been modified using Derry Leng's [initial version](https://github.com/derryleng/Shiny_Desktop_App), and his original license is retained alongside this repository.
