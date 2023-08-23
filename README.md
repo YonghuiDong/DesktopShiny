@@ -59,7 +59,7 @@ Double clicking **`run.bat`** should run your Shiny app in the web browser.
 
 - Install [Inno Setup](https://jrsoftware.org/isdl.php)
 
-- Open the **`setup.iss`** with Inno Setup software. You will need to generate a new AppId and change the name, version, etc. Note you need to use double "{{" in front. (See figure below).
+- Open the **`setup.iss`** with Inno Setup software. You will need to generate a new AppId and change the name, version, etc. Note you need to have two "{{" in front of the AppID. (See figure below).
 
 ![Unknown](https://github.com/YonghuiDong/Shiny_Desktop_App/assets/22663189/0306c338-24a0-45dc-aec2-d1116995c840)
 
