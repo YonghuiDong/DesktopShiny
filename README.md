@@ -1,10 +1,15 @@
-# Deploying Shiny as Windows Desktop Application
 
-- This repository provides the required files and instructions on deploying R Shiny web application(s) as an installable and standalone local Windows desktop application.
+# Introduction
 
-- The benefits of this deployment method is **the minimal software requirement and IT knowledge** necessary to run a Shiny application, making Shiny apps more accessible to users from all technical levels.
+- This repository offers necessary files and instructions for deploying R Shiny web apps as installable standalone applications on Windows desktop.
 
-- This repository is specially for Shiny app that is distributed as R package.
+- This is the simplest method to deploy shiny apps as a standalone app.
+
+- The resulting standalone app is notably smaller than alternative methods like Electron
+
+# Prerequisite
+
+- Your shiny app is written as an R package. (If you plan to do so, I suggest following the [golem](https://cran.r-project.org/web/packages/golem/index.html) framework)
 
 # Setup
 
