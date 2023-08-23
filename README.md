@@ -1,7 +1,7 @@
 
 # Introduction
 
-- This is the simplest method to deploy shiny apps as a standalone app.
+- This is the simplest method to deploy shiny apps as a standalone desktop app (Windows OS).
 
 - The resulting standalone app is notably smaller than alternative methods like Electron.
 
