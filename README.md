@@ -51,7 +51,7 @@ myShinyApp::run_app(options=list(launch.browser=TRUE))
 
 > Remember to add `options=list(launch.browser=TRUE)` so as to allow your web app to be opened in a broswer.
 
-### 5. Test run the app
+### 5. Test the app
 
 Double clicking **`run.bat`** should run your Shiny app in the web browser.
 
