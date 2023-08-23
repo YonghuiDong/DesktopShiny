@@ -17,7 +17,7 @@ This repository serves as a template for the  desktop-deployed Shiny apps.
 
 ### 2. Install R
 
-install the required R version within this repository, and rename the folder to **`R`**
+install the required R version within this repository, and rename the R containning folder to **`R`**.
 
 Inside the **`R`** folder, open **`etc`** and edit **`Rprofile.site`** using a text editor to include the lines:
 
