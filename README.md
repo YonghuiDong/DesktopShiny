@@ -35,6 +35,7 @@ install.packages("myShinyApp")
 ```
 
 > If your Shiny package is hosted on platforms like GitHub, Bioconductor, or others, make sure to use the appropriate method to install the package.
+> 
 > You can verify whether your Shiny app runs smoothly. If you encounter any error messages, you can install the missing dependencies as indicated by the error messages.
 
 ### 4. Test run the app
