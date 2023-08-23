@@ -63,7 +63,7 @@ Double clicking **`run.bat`** should run your Shiny app in the web browser.
 
 ![Unknown](https://github.com/YonghuiDong/Shiny_Desktop_App/assets/22663189/0306c338-24a0-45dc-aec2-d1116995c840)
 
-- (optional) If you want to change the desktop icon, please replace your own icon with the **`logo.ico`** icon file (use the same name). You can use this [website](https://convertico.com) to convert your icon image into ico format.
+- (Optional) If you want to change the desktop icon, please replace your own icon with the **`logo.ico`** icon file (use the same name). You can use this [website](https://convertico.com) to convert your icon image into ico format.
 
 - Click the "Run" button to generate your executable desktop Shiny app.
 
