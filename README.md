@@ -12,9 +12,9 @@
 
 This repository is a template of the base directory of desktop deployed Shiny app.
 
-## 2. Package portable R installation
+## 2. Install R
 
-Install R in **`R`** directory.
+Install the needed R version in this repository, and rename the **R folder** into **`R`**.
 
 Inside the **`R`** folder, open **`etc`** and edit **`Rprofile.site`** using a text editor to include the lines:
 
