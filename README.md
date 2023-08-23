@@ -13,7 +13,7 @@
 
 ## 1. Download this repository
 
-This repository is a template of the base directory of desktop deployed Shiny app.
+This repository serves as a template for the  desktop-deployed Shiny apps.
 
 ## 2. Install R
 
