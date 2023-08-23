@@ -1,11 +1,9 @@
 
 # Introduction
 
-- This repository offers necessary files and instructions for deploying R Shiny web apps as installable standalone applications on Windows desktop.
-
 - This is the simplest method to deploy shiny apps as a standalone app.
 
-- The resulting standalone app is notably smaller than alternative methods like Electron
+- The resulting standalone app is notably smaller than alternative methods like Electron.
 
 # Prerequisite
 
