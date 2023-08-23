@@ -38,14 +38,21 @@ install.packages("myShinyApp")
 > 
 > You can verify whether your Shiny app runs smoothly. If you encounter any error messages, you can install the missing dependencies as indicated by the error messages.
 
-### 4. Test run the app
+### 4. Edit run.R file
 
-Double clicking **`run.bat`** should now run the Shiny app in either the default browser or packaged web browser.
+This file has only one line, it is the same code when running your shiny app. For instance:
 
-Closing the browser window should terminate the Shiny app and close the command prompt window.
+``` R
+myShinyApp::run_app(options=list(launch.browser=TRUE))
+```
 
+> Remember to add `options=list(launch.browser=TRUE)` so as to allow your web app to be opened in a broswer.
 
-### 5. Create installer executable
+### 5. Test run the app
+
+Double clicking **`run.bat`** should run your Shiny app in the web browser.
+
+### 6. Create installer executable
 
 Installers allow for easy distribution and installation of a Shiny desktop app. 
 
