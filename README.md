@@ -14,7 +14,7 @@ This repository is a template of the base directory of desktop deployed Shiny ap
 
 ## 2. Install R
 
-Install the needed R version in this repository, and rename the **R folder** into **`R`**.
+install the required R version within this repository and rename the folder to **`R`**
 
 Inside the **`R`** folder, open **`etc`** and edit **`Rprofile.site`** using a text editor to include the lines:
 
@@ -24,15 +24,18 @@ Inside the **`R`** folder, open **`etc`** and edit **`Rprofile.site`** using a t
 }
 ```
 
-This will tell the R portable installation to only use the packages installed in this local directory, to avoid conflicts with other R installations.
+> This will tell the R portable installation to only use the packages installed in this local directory, to avoid conflicts with other R installations.
 
-### 3. Installing R packages
+### 3. Install R packages
 
 Open R.exe (found in **`R\bin`**) and install your shiny app (e.g., myShinyApp) and its dependencies.
 
 ``` R
 install.packages("myShinyApp")
 ```
+
+> If your Shiny package is hosted on platforms like GitHub, Bioconductor, or others, make sure to use the appropriate method to install the package.
+> You can verify whether your Shiny app runs smoothly. If you encounter any error messages, you can install the missing dependencies as indicated by the error messages.
 
 ### 4. Test run the app
 
