@@ -1,20 +1,23 @@
-# Deploying Shiny as Windows Desktop Application
 
-- This repository provides the required files and instructions on deploying R Shiny web application(s) as an installable and standalone local Windows desktop application.
+# Introduction
 
-- The benefits of this deployment method is **the minimal software requirement and IT knowledge** necessary to run a Shiny application, making Shiny apps more accessible to users from all technical levels.
+- This is the simplest method to deploy shiny apps as a standalone desktop app (Windows OS).
 
-- This repository is specially for Shiny app that is distributed as R package.
+- The resulting standalone app is notably smaller than alternative methods like Electron.
+
+# Prerequisite
+
+- Your shiny app is written as an R package. (If you plan to do so, I suggest following the [golem](https://cran.r-project.org/web/packages/golem/index.html) framework)
 
 # Setup
 
-## 1. Download this repository
+### 1. Download this repository
 
-This repository is a template of the base directory of desktop deployed Shiny app.
+This repository serves as a template for the  desktop-deployed Shiny apps.
 
-## 2. Install R
+### 2. Install R
 
-install the required R version within this repository and rename the folder to **`R`**
+install the required R version within this repository, and rename the folder to **`R`**
 
 Inside the **`R`** folder, open **`etc`** and edit **`Rprofile.site`** using a text editor to include the lines:
 
@@ -38,22 +41,30 @@ install.packages("myShinyApp")
 > 
 > You can verify whether your Shiny app runs smoothly. If you encounter any error messages, you can install the missing dependencies as indicated by the error messages.
 
-### 4. Test run the app
+### 4. Edit run.R file
 
-Double clicking **`run.bat`** should now run the Shiny app in either the default browser or packaged web browser.
+This file has only one line, it is the same code when running your shiny app. For instance:
 
-Closing the browser window should terminate the Shiny app and close the command prompt window.
+``` R
+myShinyApp::run_app(options=list(launch.browser=TRUE))
+```
 
+> Remember to add `options=list(launch.browser=TRUE)` so as to allow your web app to be opened in a broswer.
 
-### 5. Create installer executable
+### 5. Test the app
 
-Installers allow for easy distribution and installation of a Shiny desktop app. 
+Double clicking **`run.bat`** should run your Shiny app in the web browser.
 
-See setup.iss for an example compilation script using [Inno Setup](https://www.jrsoftware.org/isinfo.php). You will need to generate a new AppId and change the name, version, etc.
+### 6. Create installer executable
+
+- Install [Inno Setup](https://jrsoftware.org/isdl.php)
+
+- Open the **`setup.iss`** with Inno Setup software. You will need to generate a new AppId and change the name, version, etc. Note you need to have two "{{" in front of the AppID. (See figure below).
 
 ![Unknown](https://github.com/YonghuiDong/Shiny_Desktop_App/assets/22663189/0306c338-24a0-45dc-aec2-d1116995c840)
 
+- Click the "Run" button to generate your executable desktop Shiny app.
 
 ## Acknowledgements
 
-Inspired by Lee Pang (he also has a repo on this topic [here](https://github.com/wleepang/DesktopDeployR)): https://www.r-bloggers.com/deploying-desktop-apps-with-r/
+This repository has been modified using Derry Leng's [initial version](https://github.com/derryleng/Shiny_Desktop_App), and his original license is retained alongside this repository.
