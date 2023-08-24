@@ -61,11 +61,12 @@ Double clicking **`run.bat`** should run your Shiny app in the web browser.
 
 - Open the **`setup.iss`** with Inno Setup software. You will need to generate a new AppId and change the name, version, etc. Note you need to have two "{{" in front of the AppID. (See figure below).
 
-![Unknown](https://github.com/YonghuiDong/Shiny_Desktop_App/assets/22663189/0306c338-24a0-45dc-aec2-d1116995c840)
-
 - (Optional) If you want to change the desktop icon, please replace your own icon with the **`logo.ico`** icon file (use the same name). You can use this [website](https://convertico.com) to convert your icon image into ico format.
 
 - Click the "Run" button to generate your executable desktop Shiny app.
+
+![Screen Shot 2023-08-24 at 17 19 39](https://github.com/YonghuiDong/DesktopShiny/assets/22663189/4df19f72-2317-47c7-829e-99f4926c443b)
+
 
 ## Acknowledgements
 
