@@ -65,8 +65,7 @@ Double clicking **`run.bat`** should run your Shiny app in the web browser.
 
 - Click the "Run" button to generate your executable desktop Shiny app.
 
-![Screen Shot 2023-08-24 at 17 19 39](https://github.com/YonghuiDong/DesktopShiny/assets/22663189/4df19f72-2317-47c7-829e-99f4926c443b)
-
+![Screen Shot 2023-08-24 at 17 19 39](https://github.com/YonghuiDong/DesktopShiny/assets/22663189/79c99e38-4857-4d46-bd8a-2a3d1128a9ae)
 
 ## Acknowledgements
 
