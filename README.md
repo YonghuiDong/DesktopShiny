@@ -59,7 +59,7 @@ Double clicking **`run.bat`** should run your Shiny app in the web browser.
 
 - Install [Inno Setup](https://jrsoftware.org/isdl.php)
 
-- Open the **`setup.iss`** with Inno Setup software. You will need to generate a new AppId and change the name, version, etc. Note you need to have two "{{" in front of the AppID. (See figure below).
+- Open the **`setup.iss`** with Inno Setup software. You will need to generate a new **AppId** and **change the app name**, **version**, etc. Note you need to have two "{{" in front of the AppID. (See figure below).
 
 - (Optional) If you want to change the desktop icon, please replace your own icon with the **`logo.ico`** icon file (use the same name). You can use this [website](https://convertico.com) to convert your icon image into ico format.
 
