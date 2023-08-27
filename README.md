@@ -43,10 +43,11 @@ install.packages("myShinyApp")
 
 ### 4. Edit run.R file
 
-This file has only one line, it is the same code when running your shiny app. For instance:
+This file has only two lines, it is the same code when running your shiny app. For instance:
 
 ``` R
-myShinyApp::run_app(options=list(launch.browser=TRUE))
+library("myShinyApp")
+run_app(options=list(launch.browser=TRUE))
 ```
 
 > Remember to add `options=list(launch.browser=TRUE)` so as to allow your web app to be opened in a broswer.
